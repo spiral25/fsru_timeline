@@ -114,7 +114,7 @@ def main():
             changed_vessel_names = []
 
     # Display changed vessel names on the sidebar.
-    st.sidebar.header("Vessels with >5 Miles Change")
+    st.sidebar.header("Vessels with >3 Miles Change")
     if changed_vessel_names:
         for name in changed_vessel_names:
             st.sidebar.write(name)
